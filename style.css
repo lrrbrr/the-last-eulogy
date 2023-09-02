@@ -65,11 +65,47 @@ a {
     text-transform: uppercase;
 }
 
-.main-quote {    
-    font-size: 123px;
-    font-weight: 800px;
+.quote-page {
+    font-size: 126px;
+    font-weight: 300;
     line-height: 105px;
     letter-spacing: -0.05em;
     text-align: right;
-    ;
 }
+
+#main-quote {    
+    width: 100%;
+    padding-top: 150px;
+    /* bottom: 45%; */
+    display: block;
+    height: 100em;
+}
+
+#flip {
+    height: 130px;
+    overflow: hidden;
+}
+
+#flip > div > div {
+    padding: 2px 30px;
+    height: 127px;
+    margin-bottom: 90px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+#flip div:first-child {
+    animation: show 8s linear infinite;
+}
+
+@keyframes show {
+    0% {margin-top:-630px;}
+    5% {margin-top:-420px;}
+    33.33% {margin-top:-420px;}
+    38% {margin-top:-210px;}
+    66.66% {margin-top:-210px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-630px;}
+}
+
