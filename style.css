@@ -1,0 +1,14 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+.header-title {    
+    font-family: "Inter", "Roboto", "Courrier";
+    font-size: 123px;
+    font-weight: 500;
+    line-height: 105px;
+    letter-spacing: 0em;
+    text-align: right;
+    ;
+}
