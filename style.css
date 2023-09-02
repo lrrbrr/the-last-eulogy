@@ -43,6 +43,26 @@ body {
     }
 }
 
+.main-nav-list ul {
+    display: inline;
+    vertical-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-nav-list button {
+    color: white;
+    background-color: black;
+    border-color: none;
+    border-style: none;
+    border-radius: 8px;
+    padding: 12px 12px 12px 12px;
+    margin-left: 5px;
+}
+
 .main-quote {    
     font-size: 123px;
     font-weight: 800px;
