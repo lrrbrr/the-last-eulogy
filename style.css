@@ -61,6 +61,8 @@ a {
     border-radius: 8px;
     padding: 12px 12px 12px 12px;
     margin-left: 5px;
+    font: inherit;
+    text-transform: uppercase;
 }
 
 .main-quote {    
